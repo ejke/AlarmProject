@@ -1,28 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image } from 'react-native';
 
-class Greeting extends React.Component {
-  render() {
-    return (
-      <Text>Hello {this.props.name}!</Text>
-    );
-  }
-}
-
-class Goodbye extends React.Component {
-  render() {
-    return (
-      <Text>Byebye {this.props.name}!</Text>
-    );
-  }
-}
-
-class Blink extends React.Component {
-  constructor() {
-
-  }
-}
-
 export default class App extends React.Component {
   render() {
     let pic = {
@@ -33,11 +11,6 @@ export default class App extends React.Component {
         <Text style={{fontSize: 18}}>Welcome to AlarmApp!</Text>
         <Text>This wakes you up in a new way.</Text>
         <Image source={pic} style={{width: 150, height: 180}}/>
-        <Greeting name='Mari' />
-        <Greeting name='Kaisa' />
-        <Greeting name='Andrew' />
-        <Goodbye name='Anastassia' />
-        <Goodbye name='Meelika' />
       </View>
     );
   }
