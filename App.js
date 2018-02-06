@@ -9,6 +9,20 @@ class Greeting extends React.Component {
   }
 }
 
+class Goodbye extends React.Component {
+  render() {
+    return (
+      <Text>Byebye {this.props.name}!</Text>
+    );
+  }
+}
+
+class Blink extends React.Component {
+  constructor() {
+
+  }
+}
+
 export default class App extends React.Component {
   render() {
     let pic = {
@@ -22,6 +36,8 @@ export default class App extends React.Component {
         <Greeting name='Mari' />
         <Greeting name='Kaisa' />
         <Greeting name='Andrew' />
+        <Goodbye name='Anastassia' />
+        <Goodbye name='Meelika' />
       </View>
     );
   }
