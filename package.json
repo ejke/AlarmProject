@@ -25,7 +25,7 @@
     "eslint": "^4.17.0",
     "eslint-plugin-react": "^7.6.1",
     "expo": "^25.0.0",
-    "react": "^16.2.0",
-    "react-native": "^0.53.0"
+    "react": "^16.0.0",
+    "react-native": "^0.51.0"
   }
 }
