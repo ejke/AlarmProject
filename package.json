@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "babel-eslint": "^10.0.1",
+    "babel-eslint": "^10.0.3",
     "jest-expo": "33.0.2",
     "react-native-scripts": "2.0.1",
     "react-test-renderer": "16.8.6"
@@ -23,9 +23,9 @@
   },
   "dependencies": {
     "eslint": "^5.16.0",
-    "eslint-plugin-react": "^7.13.0",
-    "expo": "^33.0.5",
-    "react": "^16.8.6",
-    "react-native": "^0.59.9"
+    "eslint-plugin-react": "^7.16.0",
+    "expo": "^33.0.7",
+    "react": "^16.10.2",
+    "react-native": "^0.59.10"
   }
 }
